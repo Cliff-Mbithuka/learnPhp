@@ -13,6 +13,14 @@
    sayHi("Cliff", 40);
    sayHi("Cliff", 50);
    sayHi("Cliff", 45);
+
+   // return statements
+function cube($num){
+    echo "Hello <br>";
+    return $num * $num * $num; 
+}
+$cubeResult = cube(4);
+echo $cubeResult;
    ?>
 </body>
 </html>
