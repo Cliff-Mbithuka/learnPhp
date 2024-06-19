@@ -7,10 +7,12 @@
 </head>
 <body>
    <?php
-   function sayHi(){
-    
+   function sayHi($name, $age){
+    echo "Hello $name, you are $age <br>";
    }
-   
+   sayHi("Cliff", 40);
+   sayHi("Cliff", 50);
+   sayHi("Cliff", 45);
    ?>
 </body>
 </html>
