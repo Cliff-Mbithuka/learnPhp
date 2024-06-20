@@ -18,6 +18,12 @@ do{
 echo "$target <br>";
 $target++;
 }while($target <= 10);
+
+//for loops
+$cliffNumbers = array(4,8,14,16,23,42);
+for($i = 0; $i < count($cliffNumbers); $i++){
+echo "$cliffNumbers[$i] <br>";
+};
     ?>
 </body>
 </html>
