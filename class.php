@@ -11,22 +11,21 @@
         var $title;
         var $author;
         var $pages;
+
+        function __construct($aTitle, $aAuthor, $aPages){
+            $this->title = $aTitle;
+            $this->author = $aAuthor;
+            $this->pages = $aPages;
+        }
     }
 
     //object is an instance of a class
-    $book1 = new Book; 
-    $book1-> title ="Harry Potter";
-    $book1-> author ="Cliff John";
-    $book1-> pages =400;
-
-    $book2 = new Book; 
-    $book2-> title ="Lord of the Rings";
-    $book2-> author ="Tolkien";
-    $book2-> pages =500;
-
-
-    echo $book1 -> author;
-    echo $book2 -> title;
+    $book1 = new Book("Harry potter", "Cliff John", 400); 
+  
+    $book2 = new Book("Lord of the Rings","Tolkien", 500); 
+  
+    echo $book1 ->title ;
+    echo $book2 -> author;
 
     ?>
 </body>
