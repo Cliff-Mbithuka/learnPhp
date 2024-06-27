@@ -15,15 +15,23 @@ while($index <= 5){
 
 $target = 6;
 do{
-echo "$target <br>";
+echo "$target <br><br><br>";
 $target++;
 }while($target <= 10);
+{
+    $j = 1;
+    while($j <= 3){
+        echo "$j <br><br><br>";
+        $j++;
+    }
+}
 
 //for loops
 $cliffNumbers = array(4,8,14,16,23,42);
 for($i = 0; $i < count($cliffNumbers); $i++){
 echo "$cliffNumbers[$i] <br>";
 };
+
     ?>
 </body>
-</html>
+</html> 
